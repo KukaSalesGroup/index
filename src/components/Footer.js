@@ -3,8 +3,9 @@ import PropTypes from 'prop-types'
 
 const Footer = (props) => (
     <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
-        <p className="copyright">&copy; All Rights Reserved. Prices are subject to change with notice. Please verify at time of order.
-Trademarks belong to their respective owners.</p>
+        <p className="copyright">&copy; All Rights Reserved<br>
+        </br>Kuka Sales Group prices are subject to change. Verify at time of order.
+        </p>
     </footer>
 )
 
