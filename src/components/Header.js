@@ -10,12 +10,11 @@ const Header = props => (
       <div className="inner">
         <h1>Kuka Sales Group</h1>
         <p>
-          A fully responsive site template designed by{' Shawn McCrum '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
-        </p>
+          Phone Number: (303)-840-1047<br />
+          7108 S. Alton Way<br />
+          Bldg. F, Unit 1<br />
+          Centennial, CO 80112
+        </p>                
       </div>
     </div>
     <nav>
