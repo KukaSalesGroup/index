@@ -21,6 +21,9 @@ class Main extends React.Component {
         id="main"
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
+
+        {/* # # # # # # # # # # # # # # # Main Page # # # # # # # # # # # # # # # */} 
+
         <article
           id="intro"
           className={`${this.props.article === 'intro' ? 'active' : ''} ${
@@ -51,6 +54,8 @@ class Main extends React.Component {
           {close}
         </article>
 
+        {/* # # # # # # # # # # # # # # # Products Page # # # # # # # # # # # # # # # */}
+
         <article
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
@@ -77,6 +82,8 @@ class Main extends React.Component {
           {close}
         </article>
 
+        {/* # # # # # # # # # # # # # # # About Us Page # # # # # # # # # # # # # # # */}
+
         <article
           id="about"
           className={`${this.props.article === 'about' ? 'active' : ''} ${
@@ -100,6 +107,8 @@ class Main extends React.Component {
           {close}
         </article>
 
+        {/* # # # # # # # # # # # # # # # Contact Page # # # # # # # # # # # # # # # */}
+        
         <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
@@ -160,6 +169,9 @@ class Main extends React.Component {
           </ul>
           {close}
         </article>
+
+        {/* # # # # # # # # # # # # # # # Blog Page # # # # # # # # # # # # # # # */}
+
         <article
           id="blog"
           className={`${this.props.article === 'blog' ? 'active' : ''} ${
