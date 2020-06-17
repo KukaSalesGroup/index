@@ -55,6 +55,15 @@ const Header = props => (
             Contact
           </button>
         </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('blog')
+            }}
+          >
+            Blog
+          </button>
+        </li>        
       </ul>
     </nav>
   </header>
