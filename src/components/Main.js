@@ -94,7 +94,7 @@ class Main extends React.Component {
           </p>
           <p>
           Our office/warehouse is located off Dry Creek and I-25. It is on the south end of Denver and easily accessible. We boast an adequate inventory consisting of most testing items one would need in a hurry. Other items, we ship direct from the factory; it usually takes 3-4 days and our customers save substantially.
-          </p>
+          </p> 
           {close}
         </article>
 
