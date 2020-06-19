@@ -10,7 +10,7 @@ const Header = props => (
       <div className="inner">
         <h1>Kuka Sales Group</h1>
         <p>
-          Phone Number: (303)-840-1047<br />
+          (303)-840-1047<br />
           7108 S. Alton Way<br />
           Bldg. F, Unit 1<br />
           Centennial, CO 80112

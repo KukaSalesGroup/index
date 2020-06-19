@@ -70,15 +70,6 @@ class Main extends React.Component {
           <p>
             This page will include all products offered by KSG and allow the use to add items to their cart from the list of items. Once they "proceed to checkout" an email will be generated and sent to sales@kukasales.com
           </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
           {close}
         </article>
 
@@ -96,13 +87,13 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            With over 20 years experience, we boast of "product Knowledge" and "Pricing Knowledge". What that really means is that you can contact us with anything from a testing concept to a specific test and we can list of the equipment you need. Our pricing knowledge allows us to get you the best product for the least cost. "Value" is the key word. We have many direct agreements with many manufacturers so we can often cut out a lauer of mark-up and provide you the best product for the least cost. I often ask out customers, "do you want a Liquid Limit Machine?" The answer is always, "yes". How about a quality Pan or SApoon? The answer is always, "no". With our experience, we can save our customers time, money, and provide them the best value.
+          </p>
+          <p>
+            Customers often tell us that they dont have a Part Number, but just tell us the type of equipment, or sometimes just the test they want to perform. It saves them time and we ensure they, "get what they want, when they want it, at a fair price".
+          </p>
+          <p>
+          Our office/warehouse is located off Dry Creek and I-25. It is on the south end of Denver and easily accessible. We boast an adequate inventory consisting of most testing items one would need in a hurry. Other items, we ship direct from the factory; it usually takes 3-4 days and our customers save substantially.
           </p>
           {close}
         </article>
@@ -116,7 +107,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
+          <h2 className="major">Contact Us</h2>
           <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
@@ -142,28 +133,20 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
+                href="https://twitter.com/KukaSalesGroup"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
+              <a href="https://bit.ly/30Zn8WI" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
               <a href="https://codebushi.com" className="icon fa-instagram">
                 <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
-              >
-                <span className="label">GitHub</span>
               </a>
             </li>
           </ul>
