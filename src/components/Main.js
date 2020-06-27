@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import pic04 from '../images/2000ml-rice-flask.png'
 
 class Main extends React.Component {
   render() {
@@ -22,7 +22,7 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
 
-        {/* # # # # # # # # # # # # # # # Main Page # # # # # # # # # # # # # # # */} 
+        {/* # # # # # # # # # # # # # # # Intro Page # # # # # # # # # # # # # # # */} 
 
         <article
           id="intro"
@@ -31,26 +31,38 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">The kuka principle</h2>
+          <h2 className="major">
+            july $90 flask sale!!
+          </h2>
+          <h3 className="align-center">
+            2000 ml Rice Flask on sale for $90
+          </h3>          
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={pic04} alt="" />
           </span>
-          <p>
-            We have a responsibility to provide the customer our product knowledge and pricing knowledge in order for them to make an informed buying decision.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
-          </p>
+          <h5 className="align-center">
+            Available while supplies last.<br />Offer valid from: July 1st - July 31st <br /> DON'T MISS OUT!!
+          </h5>
+          <h3 className="align-center">
+            <b>
+              Call us:
+            </b>
+          </h3>  
+            <p className="align-center">
+              <a href="tel:3038401047">
+                (303)-840-1047
+              </a>
+            </p>  
+          <h3 className="align-center">
+            <b>
+              Email us:
+            </b>  
+          </h3>  
+            <p className="align-center">
+              <a href="mailto:jkuka@kukasales.com?subject=2000ml Rice Flask Sale">Joe Kuka</a><br /> 
+              <a href="mailto:gkuka@kukasales.com?subject=2000ml Rice Flask Sale">Garry Kuka</a><br />
+              <a href="mailto:sales@kukasales.com?subject=2000ml Rice Flask Sale">Sales Team</a> 
+            </p> 
           {close}
         </article>
 

@@ -10,7 +10,9 @@ const Header = props => (
       <div className="inner">
         <h1>Kuka Sales Group</h1>
         <p>
-          (303)-840-1047<br />
+          <a href="tel:3038401047">
+                (303)-840-1047
+          </a><br />
           7108 S. Alton Way<br />
           Bldg. F, Unit 1<br />
           Centennial, CO 80112
@@ -25,7 +27,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Intro
+            july special
           </button>
         </li>
         <li>

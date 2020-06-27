@@ -59,9 +59,8 @@
 
 		&.main {
 			display: block;
-			margin: (_size(element-margin) * 1.25) 0;
-			width: 100%;
-
+			margin: (_size(element-margin) * 1.25) 11em; // Originally (_size(element-margin) * 1.25) 0;
+			width: 40%; // Originally 100%
 			img {
 				width: 100%;
 			}
