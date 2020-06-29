@@ -14,28 +14,23 @@ const Header = props => (
         </h1>
 
         <p>
-          Located at: 7108 S. Alton Way<br />
+          Address: 7108 S. Alton Way<br />
           Bldg. F, Unit 1<br />
           Centennial, CO 80112<br />
         </p>
 
-        <p>  
           <a href="tel:3038401047">
             Call: (303)-840-1047
           </a><br />
-          
           <a href="mailto:jkuka@kukasales.com">
-            Email: Joe Kuka
-          </a><br /> 
-
+            Email: Joe Kuka<br />
+          </a>
           <a href="mailto:gkuka@kukasales.com">
             Email: Garry Kuka
           </a><br />
-
           <a href="mailto:sales@kukasales.com?subject=July Special">
             Email: Sales Team
-          </a><br />
-        </p>   
+          </a>
       </div>
     </div>
     <nav>

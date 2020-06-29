@@ -87,7 +87,7 @@
         )
       );
       @include vendor('transition-delay', '0.25s');
-      padding: 3rem 2rem;
+      padding: 1.5rem 1.5rem; // Originally 3rem 2rem
       max-height: 40rem;
       overflow: hidden;
 
@@ -100,8 +100,14 @@
       text-transform: uppercase;
       letter-spacing: _font(letter-spacing);
       font-size: 0.8rem;
-      line-height: 2;
+      line-height: 1.3;
     }
+    a {
+      text-transform: uppercase;
+      letter-spacing: _font(letter-spacing);
+      font-size: 0.8rem;
+      line-height: 2rem;
+    }    
   }
 
   nav {
