@@ -39,10 +39,10 @@ const Layout = ({ children, location }) => {
       render={data => (
         <>
           <Helmet
-            title={data.site.siteMetadata.title}
+            title={'Kuka Sales Group'} // Originally: {data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
+              { name: 'description', content: ' Laboratory equipment supplier Centennial, CO' },
+              { name: 'keywords', content: 'kuka sales group, kuka sales, kuka, centennial, colorado'},
             ]}
           >
             <html lang="en" />
