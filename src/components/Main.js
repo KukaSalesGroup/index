@@ -99,14 +99,23 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            With over 20 years experience, we boast of "product Knowledge" and "Pricing Knowledge". What that really means is that you can contact us with anything from a testing concept to a specific test and we can list of the equipment you need. Our pricing knowledge allows us to get you the best product for the least cost. "Value" is the key word. We have many direct agreements with many manufacturers so we can often cut out a lauer of mark-up and provide you the best product for the least cost. I often ask out customers, "do you want a Liquid Limit Machine?" The answer is always, "yes". How about a quality Pan or SApoon? The answer is always, "no". With our experience, we can save our customers time, money, and provide them the best value.
+            <b>Kuka Sales Group</b> specializes in meeting all your materials testing needs. This includes tensile testing of steel, aluminum, composites, titanium and all materials requiring testing to validate their properties.
           </p>
           <p>
-            Customers often tell us that they dont have a Part Number, but just tell us the type of equipment, or sometimes just the test they want to perform. It saves them time and we ensure they, "get what they want, when they want it, at a fair price".
+            Construction materials are no exception and are a significant part of our product mix. Those would include Concrete, Soils, Aggregate, asphalt, and any other related construction materials.
           </p>
           <p>
-          Our office/warehouse is located off Dry Creek and I-25. It is on the south end of Denver and easily accessible. We boast an adequate inventory consisting of most testing items one would need in a hurry. Other items, we ship direct from the factory; it usually takes 3-4 days and our customers save substantially.
+            We at Kuka Sales Group understand our customer’s needs, because we’ve been there. Garry Kuka, the president, is a Civil Engineer and is licensed in Idaho and Colorado. Over the last 35 years, he has been involved with design, construction, and quality control. This experience has resulted in a total familiarity with the testing operations, the equipment and the procedures. 
           </p> 
+          <p>
+            This experience resonates in each order as we understand our customer’s needs and feel it our responsibility to ensure that they are getting the right equipment to perform their task. By working with so many vendors in the industry, we can assure that the pricing given is the most competitive price and that backorders are minimized. After all, we have all experienced the bargain price while having half of the items ordered not show up, but be backordered for weeks at a time. We will not stand for this! We have been in our customer’s position before and we understand and will not let that happen.
+          </p> 
+          <p>
+            It is our goal to get the customer “what they want, when they want it, at a fair price.”
+          </p> 
+          <p>
+            We pledge to offer our expertise to ensure that you get what you need to perform your tests, and to do so at least cost possible.
+          </p>                               
           {close}
         </article>
 
