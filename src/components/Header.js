@@ -53,6 +53,13 @@ const Header = props => (
             about kuka
           </button>
         </li>
+        <li>
+          <button>
+            <a href="https://www.kukasalesgroup.com/">
+              blogs
+            </a>
+          </button>
+        </li>        
 {/*        <li>
           <button
             onClick={() => {
