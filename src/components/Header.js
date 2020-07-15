@@ -45,14 +45,12 @@ const Header = props => (
           </button>
         </li>
         <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('about')
-            }}
-          >
-            about kuka
+          <button>
+            <a href="https://blogs.kukasalesgroup.com/pages/about">
+              about us
+            </a>
           </button>
-        </li>
+        </li>  
         <li>
           <button>
             <a href="https://blogs.kukasalesgroup.com/">
