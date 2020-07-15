@@ -99,23 +99,20 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            <b>Kuka Sales Group</b> specializes in meeting all your materials testing needs. This includes tensile testing of steel, aluminum, composites, titanium and all materials requiring testing to validate their properties.
+            <b>Kuka Sales Group</b> is dedicated to supplying the correct materials testing equipment to our customers at a fair price.  We understand the importance of value in performing the test correctly.
           </p>
           <p>
-            Construction materials are no exception and are a significant part of our product mix. Those would include Concrete, Soils, Aggregate, asphalt, and any other related construction materials.
+            Garry Kuka is a Civil Engineer licensed in Idaho and Colorado.  After practicing as an engineer for many years, he started the business 25 years ago and has been supplying testing equipment ever since.  Joe Kuka graduated with a bachelor’s degree from Saint John’s University and has been back in Colorado since 2014, working his way into the role as President of Kuka Sales Group.  The combined experience results in familiarity with the test methods performed by our customers and the equipment required to run them.
           </p>
           <p>
-            We at Kuka Sales Group understand our customer’s needs, because we’ve been there. Garry Kuka, the president, is a Civil Engineer and is licensed in Idaho and Colorado. Over the last 35 years, he has been involved with design, construction, and quality control. This experience has resulted in a total familiarity with the testing operations, the equipment and the procedures. 
+            It is our responsibility to provide our customers with what they need for testing.  We offer the experience and expertise needed to supply the customer with what they want, when they want it, and at a fair price.  Value is what we offer our customers.  
           </p> 
           <p>
-            This experience resonates in each order as we understand our customer’s needs and feel it our responsibility to ensure that they are getting the right equipment to perform their task. By working with so many vendors in the industry, we can assure that the pricing given is the most competitive price and that backorders are minimized. After all, we have all experienced the bargain price while having half of the items ordered not show up, but be backordered for weeks at a time. We will not stand for this! We have been in our customer’s position before and we understand and will not let that happen.
+            We are proud of the company and culture we have built in Kuka Sales Group.  Our goal is to supply you, the customer, the correct equipment at the right price, but our commitment is:
           </p> 
           <p>
-            It is our goal to get the customer “what they want, when they want it, at a fair price.”
-          </p> 
-          <p>
-            We pledge to offer our expertise to ensure that you get what you need to perform your tests, and to do so at least cost possible.
-          </p>                               
+            “When it comes to testing, if we don’t have it, and we can’t find it, then you don’t need it!”
+          </p>                             
           {close}
         </article>
 
