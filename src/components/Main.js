@@ -24,48 +24,6 @@ class Main extends React.Component {
 
         {/* # # # # # # # # # # # # # # # Intro Page # # # # # # # # # # # # # # # */} 
 
-        <article
-          id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">
-            july $90 flask sale!!
-          </h2>
-          <h3 className="align-center">
-            2000 ml Rice Flask on sale for $90
-          </h3>          
-          <span className="image main">
-            <img src={pic04} alt="" />
-          </span>
-          <h5 className="align-center">
-            Available while supplies last.<br />Offer valid from: July 1st - July 31st <br /> DON'T MISS OUT!!
-          </h5>
-          <h3 className="align-center">
-            <b>
-              Call us:
-            </b>
-          </h3>  
-            <p className="align-center">
-              <a href="tel:3038401047">
-                (303)-840-1047
-              </a>
-            </p>  
-          <h3 className="align-center">
-            <b>
-              Email us:
-            </b>  
-          </h3>  
-            <p className="align-center">
-              <a href="mailto:jkuka@kukasales.com?subject=2000ml Rice Flask Sale">Joe Kuka</a><br /> 
-              <a href="mailto:gkuka@kukasales.com?subject=2000ml Rice Flask Sale">Garry Kuka</a><br />
-              <a href="mailto:sales@kukasales.com?subject=2000ml Rice Flask Sale">Sales Team</a> 
-            </p> 
-          {close}
-        </article>
-
         {/* # # # # # # # # # # # # # # # Products Page # # # # # # # # # # # # # # # */}
 
         <article

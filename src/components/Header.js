@@ -36,15 +36,6 @@ const Header = props => (
     <nav>
       <ul>
         <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('intro')
-            }}
-          >
-            july specials
-          </button>
-        </li>
-        <li>
           <button>
             <a href="https://blogs.kukasalesgroup.com/pages/about">
               about us
