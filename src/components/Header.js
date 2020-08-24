@@ -28,7 +28,7 @@ const Header = props => (
           <a href="mailto:gkuka@kukasales.com">
             Email: Garry Kuka
           </a><br />
-          <a href="mailto:sales@kukasales.com?subject=July Special">
+          <a href="mailto:sales@kukasales.com?subject=Quote Request">
             Email: Sales Team
           </a>
       </div>
